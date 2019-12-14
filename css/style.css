@@ -1,0 +1,60 @@
+.head {
+    height: 100px;
+    background: gray;
+}
+
+.navigation {
+    height: 20px;
+    background: gray;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul>li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+main {
+    height: 440px;
+}
+
+.content-left {
+    float: left;
+    height: 440px;
+    width: 59%;
+}
+
+.content-right {
+    float: right;
+    height: 440px;
+    width: 40%;
+}
+
+.lead-content {
+    height: 215px;
+    margin-bottom: 10px
+}
+
+.lead-content-top-color {
+    background: lightgreen;
+}
+
+.lead-content-bottom-color {
+    background: lightpink;
+}
+
+.more-content {
+    height: 106px;
+    background: yellow;
+    margin-bottom: 5px;
+}
+
+.footer {
+    margin-top: 10px;
+    height: 80px;
+    background: purple;
+}

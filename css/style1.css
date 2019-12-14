@@ -1,0 +1,120 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    background: lightcyan;
+    vertical-align: middle;
+}
+h1, h2, h3, h4, h5, h6, p,hr{
+	margin: 0;
+	padding: 0;
+	
+;}  
+header {
+    width: 960px;
+     height: 50px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    float: left;
+}
+
+.navigation {
+    float: right;
+}
+
+ul.nav {
+    list-style: none;
+}
+
+ul>li.navi {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+main {
+    width: 960px;
+}
+
+.content-top {
+    height: 360px;
+    background-image: url(../asserts/images/banner.jpg);
+    margin-bottom: 15px;
+}
+
+.content-bottom {
+    height: 360px;
+    margin-bottom: 5px;
+}
+
+.bottom-left {
+    width: 69%;
+    height: 360px;
+    float: left;
+}
+
+.bottom-left-top-left {
+    width: 49.5%;
+    height: 195px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.bottom-left-top-right {
+    width: 49.5%;
+    height: 195px;
+    float: right;
+    margin-bottom: 5px;
+}
+
+.bottom-left-bottom {
+    height: 160px;
+    clear: both;
+}
+
+.bottom-right {
+    width: 30%;
+    height: 360px;
+    float: right;
+}
+
+.bottom-right-top {
+   
+    height: 175px;
+    margin-bottom: 10px
+}
+
+.bottom-right-bottom {
+  
+    height: 175px;
+}
+
+.fotter {
+    width: 960px;
+    height: 60px;
+    
+}
+
+.size {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.left{
+float: left;
+}
+.right{
+    float: right;  
+}
